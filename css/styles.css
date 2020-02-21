@@ -10,7 +10,7 @@
 .home{
     background-image: url('https://delaniimaya.netlify.com/css/h_img.jpg');
     background-repeat:no-repeat ;
-    background-position: cover;
+    background-position: 99%;
     height: 90vh;
     text-align: center;
     margin-top: 20px;
@@ -19,7 +19,7 @@
 .home h1{
     padding-top: 45px;
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Berkshire Swash';
 }
 h5{
@@ -33,10 +33,10 @@ h5{
     padding-bottom: 30px;
     padding-top:40px;
 }
-.container about h1{
+.about h2{
     color: black;
     font-size: 50pxpx;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: 'Berkshire Swash';
 }
 .services{
@@ -47,19 +47,30 @@ h5{
     height: 65vh;
     color: whitesmoke;
 }
-.portfolio h1{
+.services h1{
+    padding-top: 100px;
+    /* font-weight: bold; */
+    font-family: 'Berkshire Swash';
+}
+.portfolio h2{
     text-align: center;
     font-size: 40px;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: 'Berkshire Swash';
     
 }
 .what-we-do{
     text-align: center;
 }
+.what-we-do h1{
+    font-family: 'Berkshire Swash';
+}
 .contact{
     background-image: url('https://delaniimaya.netlify.com/css/c_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
+}
+p{
+    font-size: 20px;
 }

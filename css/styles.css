@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border;
+}
+nav{
+    background-color: antiquewhite;
+    height:80px;
+    width:100%;
+    /* position: fixed; */
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin:0 5px;
+padding: 5px;
+}
+nav ul li a{
+    color:rgb(66, 65, 65);
+    font-size:20px;
+    /* text-transform: uppercase; */
+    /* border-radius:3px; */
+    font-weight: bold;
+    justify-content: space-around;
+    width: 30px;
+}
+lable.logo{
+    color:rgb(114, 55, 13);
+    font-size: 45px;
+    line-height:80px;
+    font-weight: bold;
+    padding-left:50px;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+#home{
+    background-image: url('https://delaniimaya.netlify.com/css/h_img.jpg');
+    background-repeat:no-repeat ;
+    background-position: cover;
+    height: 70vh;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20%;
+}
+#home h1{
+    color: whitesmoke;
+    font-size: 50px;
+}
+h5{
+    color: white;
+    
+}
+#about h1{
+    color: black;
+}
+

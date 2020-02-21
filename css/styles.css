@@ -5,8 +5,9 @@
     list-style:none;
     box-sizing:border;
     /* background-color: rgb(231, 225, 225); */
+    /* background-position: fixed; */
 }
-#home{
+.home{
     background-image: url('https://delaniimaya.netlify.com/css/h_img.jpg');
     background-repeat:no-repeat ;
     background-position: cover;
@@ -15,37 +16,50 @@
     margin-top: 20px;
     padding-top: 10%;
 }
-#home h1{
+.home h1{
     padding-top: 45px;
     color: whitesmoke;
     font-size: 70px;
+    font-family: 'Berkshire Swash';
 }
 h5{
     color: white;
     
 }
-#about{
+.about{
     padding-top: 30px;
     height: 65vh;
     text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px;
 }
-#about h1{
+.container about h1{
     color: black;
     font-size: 50pxpx;
     font-weight: bold;
+    font-family: 'Berkshire Swash';
 }
-#services{
+.services{
     background-image: url('https://delaniimaya.netlify.com/css/s_image.jpg');
     background-repeat: no-repeat ;
-    background-size: cover;
+    background-size: 99% ;
     text-align: center;
     height: 65vh;
     color: whitesmoke;
 }
-#portfolio{
+.portfolio h1{
     text-align: center;
-    color: thistle;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Berkshire Swash';
+    
 }
-#what-we-do{
+.what-we-do{
     text-align: center;
+}
+.contact{
+    background-image: url('https://delaniimaya.netlify.com/css/c_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
 }

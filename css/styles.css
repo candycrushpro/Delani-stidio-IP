@@ -4,6 +4,7 @@
     text-decoration:none;
     list-style:none;
     box-sizing:border;
+    overflow-x: hidden;
     /* background-color: rgb(231, 225, 225); */
     /* background-position: fixed; */
 }
@@ -70,7 +71,28 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
+    color: white;
 }
 p{
     font-size: 20px;
 }
+footer{
+    text-align: center;
+}
+.title{
+    padding: 6px;
+}
+.contact h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Berkshire Swash';
+  }
+  input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+  

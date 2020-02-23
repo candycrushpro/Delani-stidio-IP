@@ -38,7 +38,7 @@ h5{
 .about h2{
     color: black;
     font-size: 50pxpx;
-    /* font-weight: bold; */
+
     font-family: 'Berkshire Swash';
 }
 .services{
@@ -51,13 +51,11 @@ h5{
 }
 .services h1{
     padding-top: 100px;
-    /* font-weight: bold; */
     font-family: 'Berkshire Swash';
 }
 .portfolio h2{
     text-align: center;
     font-size: 40px;
-    /* font-weight: bold; */
     font-family: 'Berkshire Swash';
     
 }
@@ -80,10 +78,8 @@ p{
 }
 footer{
     text-align: center;
-}
-footer h1{
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 .title{
     padding: 6px;

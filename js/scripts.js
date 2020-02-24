@@ -4,11 +4,12 @@ $(document).ready(function(){
       $("#development").show('1500');
     });
     $("#development").click(function(){
-      $("#development").slideUp('1500');
       $("#development-image").slideDown('1500');
+      $("#development").slideUp('1500');
+      
     });
   });
-  
+
   $(document).ready(function(){
     $("#design-image").click(function(){
       $("#design-image").slideDown('1500').hide('1000');
